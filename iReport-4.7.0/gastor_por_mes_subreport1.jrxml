@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="gastor_por_mes_subreport1" language="groovy" pageWidth="572" pageHeight="752" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="94cf38f1-91fc-449a-ab11-c7189ab168d2">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from contas]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="agencia" class="java.lang.String"/>
+	<field name="banco" class="java.lang.String"/>
+	<field name="numero" class="java.lang.String"/>
+	<field name="titular" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="28" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="e124866a-26e0-4eac-8988-5d41a4a10530" x="0" y="0" width="114" height="20"/>
+				<textElement/>
+				<text><![CDATA[id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="bfadad7f-45fb-4394-83ad-9a289f74a056" x="114" y="0" width="114" height="20"/>
+				<textElement/>
+				<text><![CDATA[agencia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9ade269b-d66b-4920-b4af-8f431f045482" x="228" y="0" width="114" height="20"/>
+				<textElement/>
+				<text><![CDATA[banco]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8f9d7227-f72a-4b11-b221-f0bd599bb9b6" x="342" y="0" width="114" height="20"/>
+				<textElement/>
+				<text><![CDATA[numero]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e45609bd-bb34-47c0-8b90-57bddb4feea9" x="456" y="0" width="114" height="20"/>
+				<textElement/>
+				<text><![CDATA[titular]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="26" splitType="Stretch">
+			<textField>
+				<reportElement uuid="4dfeb166-4ff8-4ecf-a9cf-d3f941faed23" x="0" y="0" width="114" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="e3cb8f18-73ea-4271-9c64-babd97828487" x="114" y="0" width="114" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agencia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="121fe523-578c-482d-abe7-b482a6362ea6" x="228" y="0" width="114" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{banco}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="145ba7fb-2256-4781-9829-ed72a0d7b8e4" x="342" y="0" width="114" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{numero}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="265dacb7-55c4-4c5b-a7af-88a54ac7ce07" x="456" y="0" width="114" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{titular}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
