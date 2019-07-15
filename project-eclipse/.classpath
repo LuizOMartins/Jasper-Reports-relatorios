@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/1690342/Documents/software Documents/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="lib" path="library/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="library/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="library/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="library/commons-javaflow-20060411.jar"/>
+	<classpathentry kind="lib" path="library/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="library/iText-2.1.7.jar"/>
+	<classpathentry kind="lib" path="library/jasperreports-4.7.0.jar"/>
+	<classpathentry kind="lib" path="library/jcommon-1.0.15.jar"/>
+	<classpathentry kind="lib" path="library/jfreechart-1.0.12.jar"/>
+	<classpathentry kind="lib" path="library/groovy-all-1.7.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
